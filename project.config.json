@@ -1,0 +1,21 @@
+{
+  "project": {
+    "name": "2024-runoff-load-charts",
+    "slug": "2024-runoff-load-charts"
+  },
+  "google": {
+    "doc": [
+      {
+        "id": "",
+        "filepath": "src/data/copy.json"
+      }
+    ],
+    "sheet": [
+      {
+        "id": "",
+        "gid": "",
+        "filepath": ""
+      }
+    ]
+  }
+}
