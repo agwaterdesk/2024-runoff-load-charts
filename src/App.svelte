@@ -49,13 +49,13 @@
     <div class="box">
       <h2>Nitrate</h2>
       <span>In tons</span>
-      <img src="/nitrate.png" />
+      <img src="nitrate.png" />
     </div>
 
     <div class="box">
       <h2>Phosphorus</h2>
       <span>In tons</span>
-      <img src="/phosphorus.png" />
+      <img src="phosphorus.png" />
     </div>
   </div>
 </div>

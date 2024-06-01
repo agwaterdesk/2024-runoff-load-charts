@@ -17,8 +17,8 @@
 
   <div class="flex svelte-1k1mh7r"><div class="box svelte-1k1mh7r"><h2 class="svelte-1k1mh7r">Nitrate</h2> 
       <span class="svelte-1k1mh7r">In tons</span> 
-      <img src="/nitrate.png"/></div> 
+      <img src="nitrate.png"/></div> 
 
     <div class="box svelte-1k1mh7r"><h2 class="svelte-1k1mh7r">Phosphorus</h2> 
       <span class="svelte-1k1mh7r">In tons</span> 
-      <img src="/phosphorus.png"/></div></div>`,we(s,"class","chart-container svelte-1k1mh7r")},m(o,g){ae(t,o,g),K(o,n,g),K(o,s,g),r=!0},p:_,i(o){r||(re(t.$$.fragment,o),r=!0)},o(o){ke(t.$$.fragment,o),r=!1},d(o){oe(t,o),o&&L(n),o&&L(s)}}}function it(e){return new tt.Child({polling:500}),[]}class st extends ue{constructor(t){super(),le(this,t,it,nt,U,{})}}new st({target:document.getElementById("app")});
+      <img src="phosphorus.png"/></div></div>`,we(s,"class","chart-container svelte-1k1mh7r")},m(o,g){ae(t,o,g),K(o,n,g),K(o,s,g),r=!0},p:_,i(o){r||(re(t.$$.fragment,o),r=!0)},o(o){ke(t.$$.fragment,o),r=!1},d(o){oe(t,o),o&&L(n),o&&L(s)}}}function it(e){return new tt.Child({polling:500}),[]}class st extends ue{constructor(t){super(),le(this,t,it,nt,U,{})}}new st({target:document.getElementById("app")});
