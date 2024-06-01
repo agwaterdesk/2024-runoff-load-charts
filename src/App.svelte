@@ -7,6 +7,13 @@
   new pym.Child({
     polling: 500,
   });
+
+  function getUrlParameter(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name);
+  }
+
+  let includeCredit = getUrlParameter("credit") != "false";
 </script>
 
 <Window />
@@ -58,6 +65,14 @@
       <img src="phosphorus.png" />
     </div>
   </div>
+
+  {#if includeCredit}
+    <div class="credit">
+      Data: <a target="_blank" href="https://nrtwq.usgs.gov/nwqn/#/GULF">USGS</a
+      >; Graphic by Jared Whalen /
+      <a target="_blank" href="https://agwaterdesk.org/">Ag & Water Desk</a>
+    </div>
+  {/if}
 </div>
 
 <style lang="scss">
@@ -77,7 +92,7 @@
 
       .box {
         overflow-y: hidden;
-        aspect-ratio: 1 / 0.99;
+        // aspect-ratio: 1 / 0.98;
 
         h2 {
           font-weight: bold;
