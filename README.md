@@ -44,6 +44,4 @@ In your local repo:
 
 - Before publishing please make sure to fill out the `[alt text]` in `App.svelte`
 - Make sure your changes are committed to `main`
-- `npm run publish` will push to `main`, build the app, and then deploy the built version to the S3 bucket specified in `project.config.json`
-  - You'll be prompted to see if you want to generate fallbacks (for this to work, you'll need to have [localhost:3000](http://localhost:3000) running in another tab), they'll go in `public/fallbacks`
-  - See the documentation for [modifying fallbacks](#modifying-the-fallback-images) below for details
+- Run `make github`
