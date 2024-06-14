@@ -52,11 +52,11 @@
     </span>
   </p>
   <p class="sr-only">
-    Two line graphs showing the trends in nitrate and phosphorus loads from 1979
+    Two line graphs showing the trends in nitrogen and phosphorus loads from 1979
     to 2022. The graphs use two metrics: flow-normalized water-quality loads
     (green line) and a 5-year rolling average (orange line). Both metrics
     illustrate the progress toward reduction targets set by the Mississippi
-    River/Gulf of Mexico Hypoxia Task Force. For nitrate loads, there is a
+    River/Gulf of Mexico Hypoxia Task Force. For nitrogen loads, there is a
     general decline from the 1980-1996 baseline, with some fluctuations. The
     flow-normalized loads show a clearer downward trend, approaching the 25%
     reduction target by 2020, while the rolling average indicates more
@@ -68,9 +68,9 @@
 
   <div class="flex">
     <div class="box">
-      <h2>Nitrate</h2>
+      <h2>Nitrogen</h2>
       <span>In tons</span>
-      <img src="nitrate.png" />
+      <img src="nitrogen.png" />
     </div>
 
     <div class="box">

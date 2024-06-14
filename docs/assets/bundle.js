@@ -15,20 +15,20 @@
 
       <span style="display: flex; align-items: center; gap: 0px;" class="svelte-1e4tjec"><span style="width: 15px; height: 3px; display: inline-block; background: #f1b82d; " class="svelte-1e4tjec"></span> 
         <span style="width: 10px; height: 10px; border-radius: 50%; display: inline-block; border: 3px solid #f1b82d; " class="svelte-1e4tjec"></span> 
-      </span>5-year rolling average</span>`,f=H(),m=C("p"),m.textContent=`Two line graphs showing the trends in nitrate and phosphorus loads from 1979
+      </span>5-year rolling average</span>`,f=H(),m=C("p"),m.textContent=`Two line graphs showing the trends in nitrogen and phosphorus loads from 1979
     to 2022. The graphs use two metrics: flow-normalized water-quality loads
     (green line) and a 5-year rolling average (orange line). Both metrics
     illustrate the progress toward reduction targets set by the Mississippi
-    River/Gulf of Mexico Hypoxia Task Force. For nitrate loads, there is a
+    River/Gulf of Mexico Hypoxia Task Force. For nitrogen loads, there is a
     general decline from the 1980-1996 baseline, with some fluctuations. The
     flow-normalized loads show a clearer downward trend, approaching the 25%
     reduction target by 2020, while the rolling average indicates more
     variability. For phosphorus loads, the trends are less consistent. There is
     a slight decline from the baseline initially, but recent years show an
     increase, with both metrics indicating that the reduction targets are not
-    being met.`,c=H(),y=C("div"),y.innerHTML=`<div class="box svelte-1e4tjec"><h2 class="svelte-1e4tjec">Nitrate</h2> 
+    being met.`,c=H(),y=C("div"),y.innerHTML=`<div class="box svelte-1e4tjec"><h2 class="svelte-1e4tjec">Nitrogen</h2> 
       <span class="svelte-1e4tjec">In tons</span> 
-      <img src="nitrate.png"/></div> 
+      <img src="nitrogen.png"/></div> 
 
     <div class="box svelte-1e4tjec"><h2 class="svelte-1e4tjec">Phosphorus</h2> 
       <span class="svelte-1e4tjec">In tons</span> 
